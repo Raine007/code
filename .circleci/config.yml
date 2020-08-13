@@ -1,5 +1,5 @@
 
-targetBuddyPhone='‭+‭14806018321'
+targetBuddyPhone='‭+‭1234567890'
 
 while read targetMessage; do
 echo $targetMessage
@@ -11,5 +11,5 @@ tell application "Messages"
     send "$targetMessage" to targetBuddy
 end tell
 EOF
-done < movieScript.txt
-hi
+done < movieScript.txt hi how are you today 
+you need some milk
